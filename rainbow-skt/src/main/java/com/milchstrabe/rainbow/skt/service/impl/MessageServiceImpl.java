@@ -2,10 +2,10 @@ package com.milchstrabe.rainbow.skt.service.impl;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
+import com.milchstrabe.rainbow.ClientServer;
 import com.milchstrabe.rainbow.exception.LogicException;
 import com.milchstrabe.rainbow.server.domain.UCI;
 import com.milchstrabe.rainbow.skt.repository.ClientServerRepository;
-import com.milchstrabe.rainbow.skt.server.ClientServer;
 import com.milchstrabe.rainbow.skt.server.codc.Data;
 import com.milchstrabe.rainbow.skt.server.session.Session;
 import com.milchstrabe.rainbow.skt.server.session.SessionManager;

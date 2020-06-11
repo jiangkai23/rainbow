@@ -1,4 +1,4 @@
-package com.milchstrabe.rainbow.skt.repository;
+package com.milchstrabe.rainbow.ws.repository;
 
 import com.milchstrabe.rainbow.ClientServer;
 import org.springframework.data.redis.core.RedisTemplate;
