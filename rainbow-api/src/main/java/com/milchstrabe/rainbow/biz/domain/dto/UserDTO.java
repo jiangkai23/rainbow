@@ -1,8 +1,6 @@
 package com.milchstrabe.rainbow.biz.domain.dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 /**
  * @Author ch3ng
@@ -13,9 +11,13 @@ import lombok.Setter;
 @Setter
 @Getter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserDTO {
-    private String id;
+    private String userId;
     private String username;
-    private String password;
+    private String passwd;
+    private Short status;
+    private UserPropertyDTO property;
 
 }
